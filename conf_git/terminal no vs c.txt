@@ -1,0 +1,108 @@
+ctrl + j --- abrir terminal no vs code
+verifica se existe alguma credencial
+PS C:\Users\ead\Aperfeiçoamento em Python> git config --global --list
+user.name=Enzo-gms
+user.email=enzogms07@gmail.com
+
+limpara as credenciais 
+PS C:\Users\ead\Aperfeiçoamento em Python> git config --global --unset user.name
+PS C:\Users\ead\Aperfeiçoamento em Python> git config --global --unset user.email
+
+PS C:\Users\ead\Aperfeiçoamento em Python> git config --global --list   
+
+coloca sua credenciasi
+PS C:\Users\ead\Aperfeiçoamento em Python> git config --global user.name "ale09carvalho"
+PS C:\Users\ead\Aperfeiçoamento em Python> git config --global user.name "ale09.carvalho@gmail.com"
+
+-----
+PS C:\Users\ead\Aperfeiçoamento em Python> git config --global user.name "ale09carvalho"
+PS C:\Users\ead\Aperfeiçoamento em Python> git config --global user.email "ale09.carvalho@gmail.com"
+
+PS C:\Users\ead\Aperfeiçoamento em Python> git config --global --list
+user.name=ale09carvalho
+user.email=ale09.carvalho@gmail.com
+
+.gitignore --- o que vc não quer levar para repositório
+não mexer nesta pasta vev
+
+git status 
+
+criar um repositório - no projeto raiz aperfeiçoamento em python
+git init
+PS C:\Users\ead\Aperfeiçoamento em Python> git init
+PS C:\Users\ead\Aperfeiçoamento em Python> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        anotacao/
+        calculadora/
+        cinema/
+        entrada_saida_dados/
+        excecao/
+        hello_word/
+        loop_finito/
+        maior_Ternario/
+        maioridade/
+        nota/
+        repeticao/
+        variaveis/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+se a venv estiver cria na raiz um .gitignore --
+não pode ir a pasta venv
+
+PS C:\Users\ead\Aperfeiçoamento em Python> git add .
+adiciona todos pasta e arquivos 
+
+PS C:\Users\ead\Aperfeiçoamento em Python> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   anotacao/introdVsCode.txt
+        new file:   calculadora/main.py
+        new file:   calculadora/maine.py
+        new file:   cinema/main.py
+        new file:   entrada_saida_dados/main.py
+        new file:   excecao/main.py
+        new file:   hello_word/main.py
+        new file:   loop_finito/main.py
+        new file:   maior_Ternario/main.py
+        new file:   maioridade/main.py
+        new file:   nota/main.py
+        new file:   repeticao/main.py
+        new file:   repeticao/many.py
+        new file:   variaveis/main.py
+
+
+já estão na stage para commitar 
+PS C:\Users\ead\Aperfeiçoamento em Python> git commit -m "Primeiro commit"  
+agora criar a brench
+git branch -M main
+
+-----------------------
+git remote add origin git@github.com:ale09carvalho/app_python.git
+
+qdo fazer o 1º que usa o remote no posterior não usa remote
+
+-------------
+git push -u origin main
+o primeito precisa indecar para qual branch vai com -->  -u origin main
+
+vai dar erro ---
+iniciar --- digita credenciais aparecera 
+gerenciador de credenciais 
+credenciais do winsow remover 
+
+
+
+
+
+
+

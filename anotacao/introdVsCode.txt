@@ -1,0 +1,28 @@
+Uso do Vs Code - 
+Cria Perfil
+definir as extensões
+-------------------
+Python language
+juýter
+Material icon Theme extensao de icone deixa os arquivos quem e quem
+Comment Anchors
+Git Graph
+python environment mannager  toold
+Monokai Pro --- para cores
+-------------------------------------------
+f1 no Vs Code
+criar ambiente
+Create enverionment
+---
+1 Venv 
+2 Conda - 
+---
+1º opção Venv -- 2 opção de instancia do python
+Global
+nunca insta a versão microsof Store
+---
+criara uma pasta .venv
+--------------------------------------
+
+
+C:\Users\ead\Aperfeiçoamento em Python\maioridadeTernario
