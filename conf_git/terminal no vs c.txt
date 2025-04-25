@@ -100,6 +100,8 @@ iniciar --- digita credenciais aparecera
 gerenciador de credenciais 
 credenciais do winsow remover 
 
+ssh -T git@github.com
+
 
 
 

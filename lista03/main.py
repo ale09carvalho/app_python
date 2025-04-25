@@ -8,3 +8,6 @@ for i in texto:
 #separando os caracteres do texto com o índice
 for i in range(len(texto)):
     print(f"Item {i}: {texto[i]}")  # imprime o índice e o caractere correspondente
+
+
+    
