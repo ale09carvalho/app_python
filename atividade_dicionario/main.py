@@ -5,6 +5,11 @@ Crie um programa que inicializa um dicionario, e o usuario adciona e insere os s
 NOME, DATA DE NASCIMENTO, CPF, EMAIL, GENERO, TELEFONE, ALTURUA, PESO, TIPO SANGUINEO
 AO FINAL o programa exibe os dados do usuario e informa seu IMC
 
+#NOTE: o usuario deverá informar o valor apenas dessas chaves
+#NOTE: o programa deverá exibir os dados em linhas diferentes
+#NOTE: o resultado do IMC deverá ser arrendondado para 2 casa decimais.
+#NOTE: mostre o diagnostico do usuario de acordo com o valor tabela do IMC.
+
 '''
 # declaraçao
 usuario = {}
