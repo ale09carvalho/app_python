@@ -82,6 +82,11 @@ agora criar a brench
 git branch -M main
 
  git push 
+=======================================
+git pull
+it HEAD~1
+git: 'HEAD~1' is not a git command. See 'git --help'.
+PS C:\Users\ead\Aperfeiçoamento em Python> git pull
 
 
 
