@@ -1,10 +1,22 @@
 #TODO atividade2
+'''
+Crie um programa em pyton utilizando lista ou dicionario, ou seja um programa que:
+- Cadastre
+- Liste
+- Altere
+- Exclua
+O programa deverá cadastrar possoas com os seguintes dados:
+Nome, CPF, E-mail,  Telefone, Data de Nascimento, Gênero.
+'''
+# NOTE: o usuário poderá cadastrar quantas pessoas quiser.
+# NOTE: O Programa dverá fornecer um menu de opções: cadastrar, listar, alterar, excluir e sair do programa
+
+
+
 #importando a biblioteca
 import os
 
-
 lista = []
-
 
 try:
     while True:
@@ -84,32 +96,6 @@ try:
 
 except Exception as e:
     print(f"Nao foi possivel executar a operaço. {e}.")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
-Crie um programa em pyton utilizando lista ou dicionario, ou seja um programa que:
-- Cadastre
-- Liste
-- Altere
-- Exclua
-O programa deverá cadastrar possoas com os seguintes dados:
-Nome, CPF, E-mail,  Telefone, Data de Nascimento, Gênero.
-'''
-# NOTE: o usuário poderá cadastrar quantas pessoas quiser.
-# NOTE: O Programa dverá fornecer um menu de opções: cadastrar, listar, alterar, excluir e sair do programa
-
 
 
 
