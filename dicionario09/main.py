@@ -13,6 +13,7 @@ try:
                 pessoa['nome'] = input("Informe o nome:")
                 pessoa['email'] = input("Informe o e-mail:")
                 pessoa['cpf'] = input("Informe o cpf:")
+                
                 #adciona a pessoa na lista
                 pessoas.append(pessoa)
 
