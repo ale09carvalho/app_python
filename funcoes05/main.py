@@ -3,7 +3,6 @@
 #pode usar assim  ---> import funcoes OU  apelidar  ---> import funcoes as f  ou ainda --> from funcoes import calcular_quadrilatero OU 'from funcoes import *'
 
 #from funcoes import calcular_quadrilatero, calcular_triangulo, calcular_trapezio
-
 import funcoes
 
 #o que tiver dentro do if nao sera importado
