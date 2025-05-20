@@ -96,9 +96,3 @@ try:
 
 except Exception as e:
     print(f"Nao foi possivel executar a operaço. {e}.")
-
-
-
-
-
-

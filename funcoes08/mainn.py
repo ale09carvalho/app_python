@@ -1,9 +1,3 @@
-# TODO - ATIVIDADADE
-'''
-Crie um programa em python que calcule um número informado pelo usuarioda sequência Fibonacci
-'''
-# NOTE - Utilizar funçao recursiva
-
 # declaração de função
 def calcular_fibonacci(n):
     return n if n <= 1 else calcular_fibonacci(n-1) + calcular_fibonacci(n-2)
