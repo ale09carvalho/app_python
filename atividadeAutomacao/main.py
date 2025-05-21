@@ -1,7 +1,9 @@
 # TODO - atividade
 
 '''
-Crie um programa python automaçao: que comita o projeto de voces e envia o repositorio para o GitHub.
+ctrl ; atalho para inserir comentário na linhas
+Criar um programa para automatizar o commit e o push de um repositório para o GitHub.
+Crie um programa automaçao: que comita o projeto de voces e envia o repositorio para o GitHub.
 
 '''
 import pyautogui as pag
