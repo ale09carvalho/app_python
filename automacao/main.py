@@ -1,3 +1,4 @@
+sistemafibra.org.br
 #Automaçao
 import pyautogui as auto
 import time
