@@ -17,7 +17,7 @@ if __name__ == "__main__":
    
     limpar_credenciais()  # Limpa as credenciais do git
 
-    p.write("cd '.\app_python\'") # Navega até o diretório do repositório
+    #p.write("cd '.\app_python\'") # Navega até o diretório do repositório
     p.write('git config --global user.name "ale09carvalho"') # Configura o nome de usuário
     p.press('enter')
     p.write('git config --global user.email "ale09.carvalho@gmail.com"') # Configura o e-mail
