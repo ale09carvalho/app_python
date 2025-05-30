@@ -37,7 +37,7 @@ def main(page: ft.Page):
     lista_nomes = ft.Text(value="", size=16)
     nome_sorteado = ft.Text(size=20, weight="bold")
 
-    # Layout da página
+    
     page.add(
         ft.SafeArea(
             ft.Column([
@@ -56,3 +56,4 @@ def main(page: ft.Page):
     )
 
 ft.app(main)
+
